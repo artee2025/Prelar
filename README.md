@@ -1,2 +1,2 @@
 # Prelar
-Preferred language redirection class
+Preferred language redirection for Wordpress
