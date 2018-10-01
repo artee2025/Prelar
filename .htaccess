@@ -1,1 +1,3 @@
 
+RewriteEngine On
+RewriteRule ^/$ /code.php [L]
