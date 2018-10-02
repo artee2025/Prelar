@@ -1,3 +1,7 @@
 
 RewriteEngine On
-RewriteRule ^/$ /code.php [L]
+
+RewriteCond %{QUERY_STRING} ^deflang [NC]
+RewriteRule ^(.*)$ $1 [L]
+
+RewriteRule ^$ /code.php [L]
