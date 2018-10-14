@@ -1,4 +1,3 @@
-
 RewriteEngine On
 
 RewriteCond %{QUERY_STRING} ^deflang [NC]
